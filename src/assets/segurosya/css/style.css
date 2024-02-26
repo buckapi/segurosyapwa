@@ -12111,7 +12111,7 @@ span.select2-selection.select2-selection--single:focus {
  padding:70px
 }
 .contact-info-wrap {
- background:var(--smoke-color);
+ background:#f3f3f3a8;
  height:100%;
  padding:50px
 }
@@ -12156,7 +12156,7 @@ span.select2-selection.select2-selection--single:focus {
  color:var(--theme-color)
 }
 .contact-form3 {
- background:var(--smoke-color);
+ background:#f3f3f3a8;
  padding:70px
 }
 .map-sec {
