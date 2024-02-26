@@ -1,12 +1,42 @@
-<div class="th-menu-wrapper"><div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-    <div class="mobile-logo"><a href=""><img src="assets/segurosya/img/logoWhite.png" alt="Insurax"></a></div>
+<div class="th-menu-wrapper" style="background-color: white;"><div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+    <div class="mobile-logo"><a href=""><img src="assets/segurosya/img/logoWhite.png" alt="segurosya"></a></div>
     <div class="th-mobile-menu">
         <ul>
-        <li class="menu-item-has-children"><a href="">Inicio</a></li>
-        <li class="menu-item-has-children"><a href="#">SegurosYa</a></li>
-        
-        <li class="menu-item-has-children"><a href="#">Cotizador</a></li>
-        <li><a href="#">Contacto</a></li>
+         <li (click)="global.setRoute('home')" style="cursor: pointer;"><a >Inicio</a></li>
+                                        <li class="menu-item-has-children"><a >Nosotros</a>
+                                            <ul class="sub-menu">
+                                                <li><a (click)="global.setRoute('about#mision')" style="cursor: pointer;">Mision</a></li>
+                                                <li><a (click)="global.setRoute('about#vision')" style="cursor: pointer;">Vision</a></li>
+                                                <li><a (click)="global.setRoute('about')" style="cursor: pointer;">Quienes somos</a></li>
+                                                <li><a (click)="global.setRoute('aboutWhat')" style="cursor: pointer;">Por que elegirnos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a >Seguros</a>
+                                            <ul class="sub-menu">
+                                                <li><a (click)="global.setRoute('segurosDetail')" style="cursor: pointer;">SCTR SALUd</a></li>
+                                                <li><a href="">SCTR PENSION</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a >Siniestros</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="https://wa.me/573028441845" target="_blank">Contacto</a></li>
+                                                <li><a (click)="global.setRoute('procedure')" style="cursor: pointer;">Procedimientos</a></li>
+                                                <li><a href="">Telefono de emergencia</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a >Servicios</a>
+                                            <ul class="sub-menu">
+                                                <li><a (click)="global.setRoute('servicesdetail')" style="cursor: pointer;">TALLERES AFILIADOS</a></li>
+                                                <li><a href="">ASESORIAS EN SINIESTROS</a></li>
+                                                <li><a>COBRO DE INDEMNIZACIONES</a></li>
+                                                <li><a>RECHAZOS ANTE INDECOPI</a></li>
+                                                <li><a>CAPACITACION A EMPRESAS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li ><a (click)="global.setRoute('promotions')" style="cursor: pointer;">Promociones</a>
+                                           
+                                        </li>
+                                        <li><a (click)="global.setRoute('contact')" style="cursor: pointer;">Contacto</a></li>
         </ul>
     </div>
     </div>
@@ -57,7 +87,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="">
-                                <img src="assets/segurosya/img/logo.png" alt="Insurax"></a>
+                                <img src="assets/segurosya/img/logo.png" alt="segurosya"></a>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -91,6 +121,9 @@
                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('servicesdetail')" style="cursor: pointer;">TALLERES AFILIADOS</a></li>
                                                 <li><a href="">ASESORIAS EN SINIESTROS</a></li>
+                                                <li><a>COBRO DE INDEMNIZACIONES</a></li>
+                                                <li><a>RECHAZOS ANTE INDECOPI</a></li>
+                                                <li><a>CAPACITACION A EMPRESAS</a></li>
                                             </ul>
                                         </li>
                                         <li ><a (click)="global.setRoute('promotions')" style="cursor: pointer;">Promociones</a>

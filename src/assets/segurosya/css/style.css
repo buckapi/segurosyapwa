@@ -1719,7 +1719,7 @@ textarea.is-invalid {
  padding-top:40px;
  display:block;
  text-align:center;
- background-color:var(--title-color)
+ background-color:#dd3333;
 }
 .th-menu-wrapper .mobile-logo svg {
  max-width:185px
@@ -3025,7 +3025,7 @@ a.text-theme:hover,
  opacity:.7
 }
 [data-opacity="8"]:before {
- opacity:.8
+ opacity:.5
 }
 [data-opacity="9"]:before {
  opacity:.9
@@ -15800,9 +15800,9 @@ span.select2-selection.select2-selection--single:focus {
  display:-webkit-inline-flex;
  display:-ms-inline-flexbox;
  display:inline-flex;
- -webkit-transform:translate(calc(100% - 12px), 0px);
- -ms-transform:translate(calc(100% - 12px), 0px);
- transform:translate(calc(100% - 12px), 0px);
+ -webkit-transform:translate(calc(64% - 12px), 0px);
+ -ms-transform:translate(calc(64% - 12px), 0px);
+ transform:translate(calc(64% - 12px), 0px);
  z-index:1;
  background:var(--theme-color);
  -webkit-box-align:center;
