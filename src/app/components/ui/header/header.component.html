@@ -5,8 +5,8 @@
          <li (click)="global.setRoute('home')" style="cursor: pointer;"><a >Inicio</a></li>
                                         <li class="menu-item-has-children"><a >Nosotros</a>
                                             <ul class="sub-menu">
-                                                <li><a (click)="global.setRoute('about#mision')" style="cursor: pointer;">Mision</a></li>
-                                                <li><a (click)="global.setRoute('about#vision')" style="cursor: pointer;">Vision</a></li>
+                                                <li><a (click)="global.setRoute('aboutMision')" style="cursor: pointer;">Mision</a></li>
+                                                <li><a (click)="global.setRoute('aboutVision')" style="cursor: pointer;">Vision</a></li>
                                                 <li><a (click)="global.setRoute('about')" style="cursor: pointer;">Quienes somos</a></li>
                                                 <li><a (click)="global.setRoute('aboutWhat')" style="cursor: pointer;">Por que elegirnos</a></li>
                                             </ul>
@@ -17,12 +17,12 @@
                                                 <li><a href="">SCTR PENSION</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a >Siniestros</a>
-                                            <ul class="sub-menu">
+                                        <li class="menu-item-has-children"><a (click)="global.setRoute('procedure')" style="cursor: pointer;">Siniestros</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="https://wa.me/573028441845" target="_blank">Contacto</a></li>
                                                 <li><a (click)="global.setRoute('procedure')" style="cursor: pointer;">Procedimientos</a></li>
                                                 <li><a href="">Telefono de emergencia</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li class="menu-item-has-children"><a >Servicios</a>
                                             <ul class="sub-menu">
@@ -98,8 +98,8 @@
                                         <li (click)="global.setRoute('home')" style="cursor: pointer;"><a >Inicio</a></li>
                                         <li class="menu-item-has-children"><a >Nosotros</a>
                                             <ul class="sub-menu">
-                                                <li><a (click)="global.setRoute('about#mision')" style="cursor: pointer;">Mision</a></li>
-                                                <li><a (click)="global.setRoute('about#vision')" style="cursor: pointer;">Vision</a></li>
+                                                <li><a (click)="global.setRoute('aboutMision')" style="cursor: pointer;">Mision</a></li>
+                                                <li><a (click)="global.setRoute('aboutVision')" style="cursor: pointer;">Vision</a></li>
                                                 <li><a (click)="global.setRoute('about')" style="cursor: pointer;">Quienes somos</a></li>
                                                 <li><a (click)="global.setRoute('aboutWhat')" style="cursor: pointer;">Por que elegirnos</a></li>
                                             </ul>
@@ -110,14 +110,14 @@
                                                 <li><a href="">SCTR PENSION</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a >Siniestros</a>
-                                            <ul class="sub-menu">
+                                        <li><a (click)="global.setRoute('procedure')" style="cursor: pointer;">Siniestros</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="https://wa.me/573028441845" target="_blank">Contacto</a></li>
                                                 <li><a (click)="global.setRoute('procedure')" style="cursor: pointer;">Procedimientos</a></li>
                                                 <li><a href="">Telefono de emergencia</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item-has-children"><a >Servicios</a>
+                                        <li class="menu-item-has-children"><a (click)="global.setRoute('service')" style="cursor: pointer;">Servicios</a>
                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('servicesdetail')" style="cursor: pointer;">TALLERES AFILIADOS</a></li>
                                                 <li><a href="">ASESORIAS EN SINIESTROS</a></li>
@@ -136,9 +136,9 @@
                                 <div class="col-auto d-none d-xl-block">
                                     <div class="header-button">
                                         <!-- <button type="button" class="simple-icon me-3 searchBoxToggler"><i class="far fa-search"></i></button>  -->
-                                        <a href="#" class="th-btn style2">Cotizar<i class="fas fa-arrow-right ms-2"></i></a> 
-                                        <a href="#" class="simple-icon style2 ms-3 sideMenuToggler"><i class="fa-sharp fa-solid fa-grid"></i></a>
-                                    </div>
+                                        <a href="https://wa.me/573028441845" target="_blank" class="th-btn style2">Cotizar<i class="fas fa-arrow-right ms-2"></i></a> 
+<!--                                         <a href="#" class="simple-icon style2 ms-3 sideMenuToggler"><i class="fa-sharp fa-solid fa-grid"></i></a>
+ -->                                    </div>
                                 </div>
                             </div>
                         </div>
