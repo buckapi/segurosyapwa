@@ -13,10 +13,12 @@ import { PromotionsComponent } from './components/promotions/promotions.componen
 import { SergurosDetailComponent } from './components/serguros-detail/serguros-detail.component';
 import { ServicesDetailComponent } from './components/services-detail/services-detail.component';
 import { ProcedureComponent } from './components/procedure/procedure.component';
+import { FormsComponent } from './components/forms/forms.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,HeaderComponent,FooterComponent,HomeComponent, AboutComponent, ContactComponent, PromotionsComponent, SergurosDetailComponent, ServicesDetailComponent, ProcedureComponent ],
+  imports: [RouterOutlet,CommonModule,HeaderComponent,FooterComponent,HomeComponent, AboutComponent, ContactComponent, PromotionsComponent, SergurosDetailComponent, ServicesDetailComponent, ProcedureComponent, FormsComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

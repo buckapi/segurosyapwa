@@ -3,14 +3,16 @@
     <div class="th-mobile-menu">
         <ul>
          <li (click)="global.setRoute('home')" style="cursor: pointer;"><a >Inicio</a></li>
-                                        <li class="menu-item-has-children"><a >Nosotros</a>
-                                            <ul class="sub-menu">
+         <li (click)="global.setRoute('about')" style="cursor: pointer;"><a >Nosotros</a></li>
+
+                                       <!-- <li class="menu-item-has-children"><a (click)="global.setRoute('about')" >Nosotros</a>
+                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('aboutMision')" style="cursor: pointer;">Mision</a></li>
                                                 <li><a (click)="global.setRoute('aboutVision')" style="cursor: pointer;">Vision</a></li>
                                                 <li><a (click)="global.setRoute('about')" style="cursor: pointer;">Quienes somos</a></li>
                                                 <li><a (click)="global.setRoute('aboutWhat')" style="cursor: pointer;">Por que elegirnos</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="menu-item-has-children"><a >Seguros</a>
                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('segurosDetail')" style="cursor: pointer;">SCTR SALUd</a></li>
@@ -96,14 +98,16 @@
                                     <nav class="main-menu d-none d-lg-inline-block">
                                     <ul>
                                         <li (click)="global.setRoute('home')" style="cursor: pointer;"><a >Inicio</a></li>
-                                        <li class="menu-item-has-children"><a >Nosotros</a>
+                                        <li (click)="global.setRoute('about')" style="cursor: pointer;"><a >Quienes somos</a></li>
+
+                                       <!--  <li class="menu-item-has-children"><a >Nosotros</a>
                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('aboutMision')" style="cursor: pointer;">Mision</a></li>
                                                 <li><a (click)="global.setRoute('aboutVision')" style="cursor: pointer;">Vision</a></li>
                                                 <li><a (click)="global.setRoute('about')" style="cursor: pointer;">Quienes somos</a></li>
                                                 <li><a (click)="global.setRoute('aboutWhat')" style="cursor: pointer;">Por que elegirnos</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="menu-item-has-children"><a >Seguros</a>
                                             <ul class="sub-menu">
                                                 <li><a (click)="global.setRoute('segurosDetail')" style="cursor: pointer;">SCTR SALUd</a></li>
