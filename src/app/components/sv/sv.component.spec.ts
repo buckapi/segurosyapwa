@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProcedureComponent } from './procedure.component';
+import { SvComponent } from './sv.component';
 
-describe('ProcedureComponent', () => {
-  let component: ProcedureComponent;
-  let fixture: ComponentFixture<ProcedureComponent>;
+describe('SvComponent', () => {
+  let component: SvComponent;
+  let fixture: ComponentFixture<SvComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProcedureComponent]
+      imports: [SvComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ProcedureComponent);
+    fixture = TestBed.createComponent(SvComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

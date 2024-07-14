@@ -12,13 +12,15 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PromotionsComponent } from './components/promotions/promotions.component';
 import { SergurosDetailComponent } from './components/serguros-detail/serguros-detail.component';
 import { ServicesDetailComponent } from './components/services-detail/services-detail.component';
-import { ProcedureComponent } from './components/procedure/procedure.component';
 import { FormsComponent } from './components/forms/forms.component';
-
+import { SsComponent } from './components/ss/ss.component';
+import { SvComponent } from './components/sv/sv.component';
+import { SsctrComponent } from './components/ssctr/ssctr.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,HeaderComponent,FooterComponent,HomeComponent, AboutComponent, ContactComponent, PromotionsComponent, SergurosDetailComponent, ServicesDetailComponent, ProcedureComponent, FormsComponent ],
+  imports: [RouterOutlet,CommonModule,HeaderComponent,FooterComponent,HomeComponent, AboutComponent, ContactComponent, PromotionsComponent, SergurosDetailComponent, ServicesDetailComponent,
+      FormsComponent, SsComponent, SvComponent, SsctrComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
