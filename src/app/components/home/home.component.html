@@ -117,7 +117,7 @@
                                 </ul>
                             </div>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
-                                <a href="https://wa.me/51935439166" class="th-btn style3">Cotiza el tu ahora!<i
+                                <a href="https://wa.me/51935439166" class="th-btn style3">Cotiza el tuyo YA!<i
                                         class="fas fa-long-arrow-right ms-2"></i></a>
                                
                             </div>
@@ -145,21 +145,176 @@
         </div>
         <div class="row gy-4 justify-content-center">
 
-            <div class="col-md-4" *ngFor="let category of global.syCategories" style="cursor: pointer;">
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
                 <div class="service-card">
-                    <div class="service-card_img"><img src="assets/segurosya/img/service/service_1_2.jpg" alt="Service">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/vehiculo.jpg" alt="Service">
                     </div>
                     <div class="service-card_content">
-                        <div class="service-icon"><img src="assets/segurosya/img/icon/service_icon_1_4.svg" alt="Icon">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
                         </div>
-                        <h3 class="service-title box-title h4"><a
-                                (click)="global.setRoute('forms')">{{category.name}}</a></h3>
-                        <a (click)="global.setRoute('forms')" class="half-line-btn">Cotizar seguro</a>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('vehicular')">SOAT y Vehicular</a>
+                        </h3>
+                        <a (click)="global.setRoute('vehicular')" class="half-line-btn">Cotizar seguro</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Aquí se agregan los demás servicios -->
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/viaje.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('viaje')">Seguro de Viaje</a>
+                        </h3>
+                        <a (click)="global.setRoute('viaje')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/fu.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('fu')">Fondo Universitario</a>
+                        </h3>
+                        <a (click)="global.setRoute('fu')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/va.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('va')">Vida Ahorro Devolucion</a>
+                        </h3>
+                        <a (click)="global.setRoute('va')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/salud.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('salud')">Salud</a>
+                        </h3>
+                        <a (click)="global.setRoute('salud')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/pension.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('pension')">Pension</a>
+                        </h3>
+                        <a (click)="global.setRoute('pension')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/vl.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('vl')">Vida Ley</a>
+                        </h3>
+                        <a (click)="global.setRoute('vl')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/eps.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('salud')">SCTR Salud</a>
+                        </h3>
+                        <a (click)="global.setRoute('salud')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/salud2.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('salud')">EPS Salud</a>
+                        </h3>
+                        <a (click)="global.setRoute('salud')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6" style="cursor: pointer;">
+                <div class="service-card">
+                    <div class="service-card_img">
+                        <img src="assets/segurosya/img/service/cf.jpg" alt="Service">
+                    </div>
+                    <div class="service-card_content">
+                        <div class="service-icon">
+                            <img src="assets/segurosya/img/icon/icon.png" alt="Icon">
+                        </div>
+                        <h3 class="service-title box-title h4">
+                            <a (click)="global.setRoute('cf')">Carta Fianza SCTR Pension</a>
+                        </h3>
+                        <a (click)="global.setRoute('cf')" class="half-line-btn">Cotizar seguro</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Aquí se agregan los demás seguros -->
         </div>
     </div>
 </section>

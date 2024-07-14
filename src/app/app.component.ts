@@ -16,11 +16,40 @@ import { FormsComponent } from './components/forms/forms.component';
 import { SsComponent } from './components/ss/ss.component';
 import { SvComponent } from './components/sv/sv.component';
 import { SsctrComponent } from './components/ssctr/ssctr.component';
+import { SaludComponent } from './components/salud/salud.component';
+import { VaComponent } from './components/va/va.component';
+import { VehicularComponent } from './components/vehicular/vehicular.component';
+import { ViajeComponent } from './components/viaje/viaje.component';
+import { VlComponent } from './components/vl/vl.component';
+import { PensionComponent } from './components/pension/pension.component';
+import { FuComponent } from './components/fu/fu.component';
+import { CfComponent } from './components/cf/cf.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,HeaderComponent,FooterComponent,HomeComponent, AboutComponent, ContactComponent, PromotionsComponent, SergurosDetailComponent, ServicesDetailComponent,
-      FormsComponent, SsComponent, SvComponent, SsctrComponent ],
+  imports: [
+    RouterOutlet,
+    CommonModule,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent, 
+    AboutComponent, 
+    ContactComponent, 
+    PromotionsComponent, 
+    SergurosDetailComponent, 
+    ServicesDetailComponent,
+    FormsComponent, 
+    SsComponent, 
+    SvComponent, 
+    SsctrComponent, 
+    SaludComponent, 
+    VaComponent, 
+    VehicularComponent, 
+    ViajeComponent, 
+    VlComponent, 
+    PensionComponent, 
+    FuComponent, 
+    CfComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
